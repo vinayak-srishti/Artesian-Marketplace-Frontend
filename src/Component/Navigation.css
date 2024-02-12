@@ -1,0 +1,53 @@
+
+.brndname{
+    color: #a47868;
+    font-family: fantasy;
+    font-size: 28pt;
+}
+.logo{
+ height: 100px;
+ width: 100px;
+}
+.nav1{
+    background-color: #c0b1aaad;
+}
+.srch{
+   
+    size: 150px 200px;
+}
+.navsrchbtn{
+    background-color: #a47868;
+    color: white;
+    border: none;
+    width: 150px;
+    border-radius: 20px;
+}
+.inputsrch{
+    border: 1px solid #a47868;
+    border-radius: 5px;
+}
+.cardtle{
+    color: white;
+}
+.cardtxt{
+    color: white;
+}
+.navcontent, .navcontent:link{
+    
+    text-decoration: none;
+    display: inline-block;
+    color:#a47868 ;
+}
+.navcontent:hover{
+    color: black;
+}
+.cardbtn{
+    background-color:#d7b5a9;
+    border-radius: 20px;
+    color: white;
+    color: black;
+    padding: 15px;
+}
+.cardbtn:link{
+    text-decoration: none;
+} 
