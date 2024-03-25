@@ -1,6 +1,143 @@
 .sect1{
-    background-image: url(file:///C:/Users/ashaa/OneDrive/Desktop/artisanmarketplace/Artesian-Marketplace-Frontend/artisanmarketplace-front/src/Component/Image/a.png);
+    background-image:url(file:///C:/Users/ashaa/OneDrive/Desktop/artisanmarketplace/Artesian-Marketplace-Frontend/artisanmarketplace-front/src/Component/Image/1a.png) ;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.img1{
-    background-color: #77d8f1;
+   
+  .logcard{
+    height: 680px;
+    border: none;
+    /* background-color: #9f7a6b; */
+    border-radius: 0px;
+    
+  }  
+  
+.card1{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    background-color: white;
+    margin: top 100px;;
+    text-align: center;
+    justify-content: center;
+    
+}
+.logcardbody{
+  height: 100px;
+  
+}
+.card-header{
+  height: 45px;
+    background-color: #9f7a6b;
+}
+.hrlogpage{
+  position: static;
+  width: 250px;
+  box-shadow: 2px 2px dashed (0, 0, 0, 0.53);
+  text-align: center;
+  margin-left: 65px;
+  border-top: 3px dashed #9f7a6b;
+  
+}
+.form-control{
+  width: 350px;
+}
+.logicn{
+    margin-top: 150px;
+}
+.labellogpage{
+  /* position: relative; */
+  margin-top: 35%;
+    font-family: HYGothic-Extra;
+    text-align: center;
+    
+}
+.labeltagline{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+.btn{
+border: 2px solid #9f7a6b;
+color:black;
+width: 250px;
+/* --bs-btn-color: var(--bs-white); */
+/* --bs-btn-border-color: var(--bd-violet-bg); */
+/* --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)}; */
+--bs-btn-active-bg: #{shade-color($bd-#9f7a6b, 20%)};
+--bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+.btn.clicked {
+  background-color: transparent;
+  
+}
+.loglabel{
+  color: rgb(177, 171, 171);
+  font-size: small;
+  text-align: left;
+}
+.loglinkda,.loglinkuser{
+  color: white;
+  font-size: small;
+
+}
+.loglinkda:link,.loglinkuser:link{
+  text-decoration: none;
+}
+.btn:hover{
+  background-color:#9f7a6b;
+  color: white;
+  border:2px solid #9f7a6b;
+}
+.forgotpassword{
+  color: #9f7a6b;
+}
+.signup{
+  color: #9f7a6b;
+}
+.col1{
+    background-image: linear-gradient(#d0a292,#9f7a6b); /* Your desired background color */
+   background-size: cover;
+  border: none;
+  position: relative;
+  height: 91.9vh;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  color: white; /* Text color */
+  font-size: 30px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  text-align: center;
+  size: 550px,500px;
+  
+  }
+  .col2 {
+    background-image: url(file:///C:/Users/ashaa/OneDrive/Desktop/artisanmarketplace/Artesian-Marketplace-Frontend/artisanmarketplace-front/src/Component/Image/a.png);
+    background-size: cover;
+    height: 91.9vh;
+    background-position: center;
+    /* width: 100%; Make the column fill the entire width */
+  /* max-width: 100%; Ensure the column doesn't exceed the screen width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  }
+  /* .col2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  } */
+  .card1registeruser{
+    
+    height: 150vh;
+  }
+.card2{
+  height: 300px;
+  width: 400px;
+    /* height: 450px; */
+    position: absolute;
+    background-color: white;
+    margin: top 100px;;
+    text-align: center;
+    justify-content: center;
 }

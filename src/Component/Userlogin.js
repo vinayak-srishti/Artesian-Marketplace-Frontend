@@ -1,30 +1,13 @@
-
-import React,{ useState } from 'react'
+import React from 'react'
 import { FaLock, FaUserAlt } from 'react-icons/fa';
-import axios from 'axios'
+
 import "../Component/Logpage.css"
 import pic from './Image/logicon.png'
 
-function Logpage() {
-  const[data,setdata]=useState({email:'',password:''})
-  const func1=(a)=>{
-    setdata({...data,[a.target.name]:a.target.value})
-    console.log(data)
-}
-const submitfn=(Event)=>{
-  Event.preventDefault()
-     console.log("saved")
-
-  // axios.post("https://jsonplaceholder.typicode.com/posts",data)
-    // .then((result)=>{
-    //     console.log(result)
-    // })
-    // .catch((error)=>{
-    //  console.log(error)
-    // })
-}
+function Userlogin() {
   return (
-    <div><section class="vh-100" className='sect1' /*style="background-color: #9A616D;"*/>
+    <div>
+        <section class="vh-100" className='sect1' /*style="background-color: #9A616D;"*/>
       <div class="container py-5 h-100">
         <div class="row justify-content-center align-items-center">
           <div class="col col-xl-10" >
@@ -44,28 +27,28 @@ const submitfn=(Event)=>{
                         <label className='loglabel'>Sign in as:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href='./adminlog' className='loglinkuser'>Admin</a>&nbsp;&nbsp;&nbsp;
                         <a href='./logpage' className='loglinkuser'>Artist</a>&nbsp;&nbsp;&nbsp;
-                        <a href='./userlogin' className='loglinkuser'>User</a>&nbsp;&nbsp;&nbsp;
+                        <a href='' className='loglinkuser'>User</a>&nbsp;&nbsp;&nbsp;
                         
                         <a href='' className='loglinkda'>Delivery Agent</a>
                         
                       </h5>
                       <div class="card-body" className='logcardbody'>
                         <br></br>
-                        <h5 class="card-title">Sign in as Artist</h5><hr className='hrlogpage'></hr>
-                        <form onSubmit={submitfn}>
+                        <h5 class="card-title">Sign in as User</h5><hr className='hrlogpage'></hr>
+                        <form>
                         <div class="input-group flex-nowrap">
                           
                           <span class="input-group-text" id="addon-wrapping"><FaUserAlt /></span>
-                          <input type="email" class="form-control" onChange={func1} name='email' value={data.email} placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
+                          <input type="email" class="form-control"  name='email'  placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
                         </div><br></br>
                         <div class="input-group flex-nowrap">
                           <span class="input-group-text" id="addon-wrapping"><FaLock /></span>
-                          <input type="text" class="form-control" onChange={func1} name='password' value={data.password} placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping" />
+                          <input type="text" class="form-control" name='password'  placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping" />
                         </div><br></br>
                         <a href="#!" className='forgotpassword'>Forgot password?</a><br></br><br></br>
                         <button class="btn btn-outline-success" type="submit">Login</button><br></br><br></br>
                         </form>
-                        <p class="mb-0">Don't have an account? <a href="./reg" class="text-white-50 fw-bold" className='signup'>Sign Up</a>
+                        <p class="mb-0">Don't have an account? <a href="./userreg" class="text-white-50 fw-bold" className='signup'>Sign Up</a>
                         </p>
                         {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
@@ -79,8 +62,9 @@ const submitfn=(Event)=>{
           </div>
         </div>
       </div>
-    </section></div>
+    </section>
+    </div>
   )
 }
 
-export default Logpage
+export default Userlogin

@@ -1,0 +1,13 @@
+.card1registeruser{
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    background-color: white;
+    margin: top 100px;;
+    text-align: center;
+    justify-content: center;
+    
+}
+.signup1{
+    color: white;
+}

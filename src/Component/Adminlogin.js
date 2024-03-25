@@ -1,12 +1,9 @@
-
 import React,{ useState } from 'react'
 import { FaLock, FaUserAlt } from 'react-icons/fa';
-import axios from 'axios'
-import "../Component/Logpage.css"
 import pic from './Image/logicon.png'
 
-function Logpage() {
-  const[data,setdata]=useState({email:'',password:''})
+function Adminlogin() {
+    const[data,setdata]=useState({email:'',password:''})
   const func1=(a)=>{
     setdata({...data,[a.target.name]:a.target.value})
     console.log(data)
@@ -24,7 +21,8 @@ const submitfn=(Event)=>{
     // })
 }
   return (
-    <div><section class="vh-100" className='sect1' /*style="background-color: #9A616D;"*/>
+    <div>
+        <section class="vh-100" className='sect1' /*style="background-color: #9A616D;"*/>
       <div class="container py-5 h-100">
         <div class="row justify-content-center align-items-center">
           <div class="col col-xl-10" >
@@ -51,7 +49,7 @@ const submitfn=(Event)=>{
                       </h5>
                       <div class="card-body" className='logcardbody'>
                         <br></br>
-                        <h5 class="card-title">Sign in as Artist</h5><hr className='hrlogpage'></hr>
+                        <h5 class="card-title">Sign in as Admin</h5><hr className='hrlogpage'></hr>
                         <form onSubmit={submitfn}>
                         <div class="input-group flex-nowrap">
                           
@@ -62,13 +60,11 @@ const submitfn=(Event)=>{
                           <span class="input-group-text" id="addon-wrapping"><FaLock /></span>
                           <input type="text" class="form-control" onChange={func1} name='password' value={data.password} placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping" />
                         </div><br></br>
-                        <a href="#!" className='forgotpassword'>Forgot password?</a><br></br><br></br>
+                        <a href="./adminresetpwd" className='forgotpassword'>Forgot password?</a><br></br><br></br>
                         <button class="btn btn-outline-success" type="submit">Login</button><br></br><br></br>
                         </form>
-                        <p class="mb-0">Don't have an account? <a href="./reg" class="text-white-50 fw-bold" className='signup'>Sign Up</a>
-                        </p>
-                        {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-                        {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                        
+                        
                       </div>
                     </div>
 
@@ -79,8 +75,9 @@ const submitfn=(Event)=>{
           </div>
         </div>
       </div>
-    </section></div>
+    </section>
+    </div>
   )
 }
 
-export default Logpage
+export default Adminlogin
