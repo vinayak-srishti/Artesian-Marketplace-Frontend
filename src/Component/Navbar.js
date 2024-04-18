@@ -5,7 +5,7 @@ function Navbar() {
     <div>
         <nav class="navbar bg-body-tertiary">
         <div class="container-fluid" >
-          <span class="navbar-brand mb-0 h1 " className='brndname'> Artisan Marketplace
+          <span class="navbar-brand mb-0 h1 " className='brndname'> HandiZen
           </span>
           <form class="d-flex" role="search">
             <input class="form-control me-2"  className='inputsrch' type="search" placeholder="Search" aria-label="Search" />&nbsp;&nbsp;
@@ -25,13 +25,13 @@ function Navbar() {
           <a class="nav-link" className='navcontent' href="#">Shop</a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" className='navcontent' href="#">About us</a>
+          <a class="nav-link" className='navcontent' href="/about">About us</a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" className='navcontent' href="#">Contact</a>
+          <a class="nav-link" className='navcontent' href="/contactus">Contact</a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" className='navcontent' href="#">Gallery</a>
+          <a class="nav-link" className='navcontent' href="/gallery">Gallery</a>
         </li>
         
       </ul><hr></hr>

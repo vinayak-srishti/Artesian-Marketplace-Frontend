@@ -82,7 +82,7 @@ function Footer() {
   </div>
   <div class="text-center p-3" /*style="background-color: rgba(0, 0, 0, 0.2);"*/>
 <label className='footer-label'>Follow Us</label><br></br>
-    <label> <FaFacebook></FaFacebook> <FaTwitter></FaTwitter> <FaInstagram></FaInstagram></label> Artisan_Marketplace
+    <label> <FaFacebook></FaFacebook> <FaTwitter></FaTwitter> <FaInstagram></FaInstagram></label>HandiZen
   </div>
   {/* <!-- Copyright --> */}
 </footer>

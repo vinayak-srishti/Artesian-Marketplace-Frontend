@@ -16,6 +16,7 @@ import Adminresetpwd from './Component/Adminresetpwd';
 import Userlogin from './Component/Userlogin';
 import Userreg from './Component/Userreg';
 import Footer from './Component/Footer';
+import Contactus from './Component/Contactus';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Route path="/userlogin" element={[<Navbar/>,<Userlogin/>]}/>
       <Route path="/userreg" element={[<Navbar/>,<Userreg/>]}/>
       <Route path="/footer" element={<Footer/>}/>
+      <Route path="/contactus" element={[<Navbar/>,<Contactus/>,<Footer/>]}/>
     </Routes>
     </div>
     </BrowserRouter>

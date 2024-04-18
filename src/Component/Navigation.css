@@ -7,8 +7,12 @@
 }
 .brndname{
     color: #a47868;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28pt;
+}
+.logo1{
+    width: 40px;
+    height: 40px;
 }
 .icnloglink{
     /* text-align: right; */
@@ -44,10 +48,17 @@
     border-radius: 5px;
 }
 .cardtle{
-    color: white;
+    color: rgb(248, 232, 232);
+    font-size: 50px;
+    text-shadow: black 3px 4px;
+    /* text-decoration: underline; */
 }
 .cardtxt{
-    color: white;
+    color:white;
+    size: 50px;
+    text-shadow: black 3px 2px;
+    letter-spacing: 3px;
+
 }
 .navcontent, .navcontent:link{
     
@@ -114,4 +125,21 @@ scale: 0.9;
 }
 .homeimage{
     background-attachment: fixed;
+}
+.elephantcard{
+    border: none;
+}
+.elephantimg{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 50px;
+    border: #a47868 dashed 2px;
+}
+.elephantcardtext{
+text-align: justify;
+padding: 30px;
+font-style:italic;
+margin-right: 150px;
 }

@@ -15,7 +15,7 @@ function Registerpage() {
                 <div class="col-md-6" >
                   <div className='col1'>
                     <img src={pic} alt='icon image' className='logicn' /><br></br>
-                    <label className='labellogpage'>Museofire</label><br></br>
+                    <label className='labellogpage'>HandiZen</label><br></br>
                     <span className='labeltagline'>The art of connection</span>
                   </div>
                 </div>
